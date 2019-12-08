@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Ville Kankaanpää</title>
+  </head>
+  <body data-spy="scroll" data-target="#menu">
+    <div id="home">
+      <nav class="navbar navbar-dark navbar-expand-md navbar-fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"> 
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Koti</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="Kokemus.html">Kokemus ja osaaminen</a>
+              </li>                
+              <li class="nav-item">
+                <a class="nav-link" href="tietoa.html">Tietoa minusta</a>
+              </li>                    
+            </ul>  
+          </div>  
+        </div>
+      </nav>  
+
+      <div class="container">
+          <section class="mb-4">
+
+                    <h2 class="h1-responsive font-weight-bold text-center my-4">Ota yhteyttä!</h2>
+
+                    <p class="text-center w-responsive mx-auto mb-5">Jos haluat tavoittaa minut, ota alla olevan kentän kautta yhteyttä!</p>
+
+                    <div class="row">
+
+
+                        <div class="col-md-6 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" role="form">
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="name" name="name" class="form-control">
+                                            <label for="name" class="">Etu- ja sukunimi</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="email" id="email" name="email" class="form-control" placeholder="Kirjoita sähköpostiosoite*" required="required" data-error="Sähköposti pakollinen.">
+                                            <label for="email" class="">Sähköpostiosoitteesi</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                            <label for="subject" class="">Aihe</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-md-12">
+
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                            <label for="message">Viestisi</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </form>
+
+                            <div class="text-center text-md-left">
+                                <button type="button" class="btn btn-primary" value="send message">Lähetä</a>
+                            </div>
+                            <div id="status"></div>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <ul class="list-unstyled mb-0">
+                                <li><img src="img/maapallo.png" alt="sijainti" height="19px">
+                                    <p>Vantaa</p>
+                                </li>
+
+                                <li><img src="img/puhelin.png" alt="puhelin" height="19px">
+                                    <p>040 8313200</p>
+                                </li>
+
+                                <li><img src="img/gmail.png" alt="gmail" height="10px">
+                                    <p>kankaanpaa.ville.juhani@gmail.com</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </section>     
+      </div> 
+
+    <footer class="footer2">
+      <div class="container">
+        <span class="text-muted">© Ville Kankaanpää</span>
+
+        <a href="https://www.facebook.com/" title="Facebook"><img class="footer-logos" src="img/facebook.png" alt="facebook" height="40px"></a>
+
+        <a href="mailto:kankaanpaa.ville.juhani@gmail.com" class="gmail" title="gmail" subject="Lähetetty portfolio-sivun kautta"><img class="footer-logos" src="img/gmail.png" alt="gmail" height="30px"></a>
+
+        <a href="https://github.com/Villek1996/Villek1996.github.io" title="Github"><img class="footer-logos" src="img/github.png" alt="github" height="40px"></a>
+      </div>
+    </footer>    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
